@@ -5,7 +5,8 @@ import List from "./List";
 import Form from "./Form";
 import Table from "./Table";
 import ButtonLoading from "./ButtonLoading";
-import Test from "./Test";
+import Count from "./Count";
+import ProductList from "./ProductList";
 import Cart from "./Cart";
 
-export { Button, Input, Item, List, Form, Table, ButtonLoading, Test, Cart } 
+export { Button, Input, Item, List, Form, Table, ButtonLoading, Count, ProductList, Cart } 
