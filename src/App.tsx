@@ -1,7 +1,7 @@
 
 import './App.css'
-import { Cart, ProductList } from './components'
-import Count from './components/Count'
+import { ProductList } from './components'
+
 import { RouterProvider } from "react-router-dom";
 import { routers } from "./routes";
 
@@ -11,10 +11,10 @@ function App() {
     <div>
       <div>
         <RouterProvider router={routers} />
-        <Count />
+
         <ProductList />
         <h2 className="font-bold text-2xl">Cart</h2>
-        <Cart />
+
       </div>
     </div>
   )
